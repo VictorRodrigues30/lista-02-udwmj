@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(0, 71, 0);
+    font-family: georgia, serif;
+    font-size: 20px;
+}
+img {
+    width: 350px;  
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 35px;
+    color: rgb(88, 177, 0);
+    text-align: center;    
+}
+
+.nome { 
+    font-size: 45px;
+    text-align: left;
+    text-decoration:underline;
+    color: chartreuse;
+}
+
+.obra {
+    text-align: left;
+    color: rgb(88, 177, 0);
+    font-size: 30px;
+}
+
+p {
+    width: 800px;
+    padding: 30px;
+    border: 3px solid rgb(0, 96, 16);
+    border-radius: 15px;
+    line-height: 1.5;
+    color:rgba(172, 240, 105, 0.774);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+}
+
+.perfil {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    padding-left: 15rem;
+    background-color: rgb(0, 45, 0);
+    border-radius: 20px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+}
+
+.informacoes {
+    padding: 30px;    
+}
+
+.caracteristicas {
+    border: 8px solid rgb(0, 45, 0);
+    line-height: 1.5;
+    color:rgba(199, 229, 169, 0.774);
+    width: 1000px;
+    padding: 30px;
+    margin: 20px auto 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.4);
+}
+
+li{ 
+    margin-bottom: 2rem; 
+}
