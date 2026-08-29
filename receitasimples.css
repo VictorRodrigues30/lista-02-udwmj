@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: rgba(253, 206, 191, 0.826);
+    color: rgb(175, 96, 1);
+    text-align: center;
+    padding: 30px;
+}
+
+img {
+    width: 350px;
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    text-decoration: underline;
+    color: rgb(138, 87, 0);
+}
+
+.ingredientes {
+    line-height: 1;
+    font-size: 30px;
+}
+
+.preparo {
+    line-height: 1;
+    font-size: 30px;
+}
+
+li {
+    line-height: 1.5;
+}
+
+ul, ol {
+    color: rgb(120,70,0);
+    list-style-position: inside;
+    border: 1px solid rgb(138, 87, 0);
+    border-radius: 10px;
+    width: 600px;
+    padding: 20px;
+    text-align: left;
+    margin: 20px auto;
+}
+
+p {
+    font-weight: bold;
+}
